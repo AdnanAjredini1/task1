@@ -4,7 +4,7 @@ export default function Items({title, content, icon:Icon}) {
         
         <div className="item-div">
              <div className="icon-div">
-                <div><Icon /></div>
+                <div><Icon size={1} /></div>
              </div>
 
              <div className="content-div">
