@@ -1,10 +1,10 @@
 
-export default function Items({title, content, icon:Icon}) {
+export default function Items({title, content, icon}) {
     return (
         
         <div className="item-div">
              <div className="icon-div">
-                <div><Icon size={1} /></div>
+             <img src={icon} alt="icon" style={{ width: '65%', height: '65%' }} />
              </div>
 
              <div className="content-div">
