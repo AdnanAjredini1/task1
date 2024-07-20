@@ -85,13 +85,15 @@ body {
   .main-div {
     margin-left: 24%;
     margin-right: 7%;
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 1183px) {
   .main-div {
-    margin-left: 15%;
+    margin-left: 20%;
     margin-right: 10%;
+    margin-top: 40px;
   }
 
   .item-div {
@@ -99,7 +101,7 @@ body {
   }
 }
 
-@media (max-width: 928px) {
+@media (max-width: 974px) {
   .main-div {
     margin-left: 10%;
     margin-right: 7%;
@@ -109,7 +111,8 @@ body {
 @media (max-width: 818px) {
   .main-div {
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
+    margin-top: 30px;
   }
 }
