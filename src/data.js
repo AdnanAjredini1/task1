@@ -16,64 +16,55 @@ const itemsData = [
         id: 1,
         title: "Task Completed",
         content: "This task was completed successfully.",
-        icon: doneIcon, 
-        color: 'green'
+        icon: doneIcon
     },
     {
         id: 2,
         title: "Task Failed",
         content: "This task failed.",
-        icon: failed,
-        color: 'red'
+        icon: failed
     },
     {
         id: 3,
         title: "Favorite",
         content: "This is a favorite item.",
-        icon: star,
-        color: 'gold'
+        icon: star
     },
     {
         id: 4,
         title: "Love",
         content: "This item is loved.",
-        icon: favorite,
-        color: 'red'
+        icon: favorite
     },
     {
         id: 5,
         title: "Liked",
         content: "This item is liked.",
-        icon: like, 
-        color: 'blue'
+        icon: like
     },
     {
         id: 6,
         title: "Coffee Break",
         content: "Time for a coffee break.",
-        icon: coffe,
-        color: 'brown'
+        icon: coffe
     },
     {
         id: 7,
         title: "Car",
         content: "This is a car item.",
-        icon: car,
-        color: 'grey'
+        icon: car
     },
     {
         id: 8,
         title: "Home",
         content: "This is a home item.",
-        icon: home,
-        color: 'teal'
+        icon: home
     },
     {
         id: 9,
         title: "Travel",
         content: "Time to travel.",
-        icon: travel,
-        color: 'purple'
+        icon: travel
     }
 ];
 

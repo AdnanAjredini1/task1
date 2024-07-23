@@ -1,10 +1,4 @@
 body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,23 +6,19 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
-  gap: 40px;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin-top: 10%;
+  margin-inline: 20%;
+ 
 }
 
 .item-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 260px;
-  height: 90px;
-  gap: 15px;
-  margin-left: 40px;
-  margin-right: 20px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 65px  160px;
+
 }
 
 .icon-div {
@@ -51,7 +41,9 @@ body {
 .content-div {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -67,53 +59,40 @@ body {
   font-size: x-small;
 }
 
-@media (max-width: 1734px) {
-  .main-div {
-    margin-left: 15%;
-    margin-right: 10%;
-  }
-}
 
-@media (max-width: 1388px) {
-  .main-div {
-    margin-left: 15%;
-    margin-right: 7%;
-  }
-}
 
-@media (max-width: 1332px) {
-  .main-div {
-    margin-left: 24%;
-    margin-right: 7%;
-    margin-top: 40px;
-  }
-}
 
-@media (max-width: 1183px) {
+
+
+
+
+
+
+@media (max-width: 700px) {
+  html{
+    -ms-overflow-style: none;
+   scrollbar-width: none;
+  }
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
   .main-div {
-    margin-left: 20%;
-    margin-right: 10%;
-    margin-top: 40px;
+    flex-direction: column;
+    margin-top: 10%;
+  
+  }
+
+  .icon-div {
+    width: 50px;
+    height: 50px;
   }
 
   .item-div {
-    gap: 30px;
-  }
-}
-
-@media (max-width: 974px) {
-  .main-div {
-    margin-left: 10%;
-    margin-right: 7%;
-  }
-}
-
-@media (max-width: 818px) {
-  .main-div {
-    flex-direction: column;
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-top: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 55px  155px;
   
   }
 }
